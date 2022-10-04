@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pallindrome Birthday Check</title>
+    <link href="/style.css" rel="stylesheet">
 </head>
 <body>
     <h1>Pallindrome Birthday</h1>
-    <div id="container">
-        <input type="date">
-
+    <div id="container"> 
+        <label for="birthdate" class="lbl-for-birthday">Enter your birthdate: </label>
+        <input type="date" name="birthday" id="birthdate" > 
+        <button id="show-btn">Show</button>
+        <h2 id="output-container"></h2>
     </div>
 </body>
+<script type="text/javascript" src="/mark13Functionality.js"></script>
 </html>
