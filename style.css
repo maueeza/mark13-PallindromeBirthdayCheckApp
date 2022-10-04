@@ -1,7 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+   margin: 0px;
+    height: 100%;
+    text-align: center;
+}
+
+:root{
+    --primary-color : #1e40af;
+    --width-break : 700px;
+}
+
+#container{
+    width: 100%;
+    max-width: var(--width-break);
+    margin: 2rem auto auto;
+    height: auto;
+}
+
+#header{
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    
+}
+
 .lbl-for-birthday{
     display: block;
+    margin: 1rem;
+    font-size: 30px;
+    font-weight: bold;
 }
+
 
 #show-btn{
     display: block;
+    margin: 1rem auto 1rem;
+    background-color: #1d4ed8;
+    width: 200px;
+    height: 2.5rem;
+    border: none;
+    font-size: large;
+    font-weight: 100;
+    font-family: 'Saira Condensed', sans-serif;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 5px #0c4a6e;
+    cursor: pointer;
+    color: #fff;
+}
+
+#birthdate{
+    width: 100%;
+    max-width: 250px;
+    border: 1.5px solid var(--primary-color);
+    font-size: 14px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    outline: #fff;
+}
+
+#output-container{
+    margin: auto;
+    text-align: center;
+}
+
+#show-btn:hover{
+    font-weight: bolder;
+}
+
+#footer{
+    display: block;
+    height: auto;
+    text-align: center;
+    /*color: var(--primary-color);*/
+    background-color: var(--primary-color);
+    padding-top: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right : 0;
+}
+
+#footer h3{
+    font-size: large;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+a,img,li{
+    display: inline;
+    color: #fff;
 }

@@ -128,11 +128,11 @@ function showBtnHandler()
 
     if(isPallindrome)
     {
-        outputContainer.innerText = "Yay! Your Birthday is Pallindrome!😊";
+        outputContainer.innerText = "Yay! Your Birthday is Palindrome!😊";
     }
     else
     {
-        outputContainer.innerText= "Oopsie! Your Birthday is not Pallindrome!☹️"
+        outputContainer.innerText= "Oopsie! Your Birthday is not Palindrome!☹️"
     }
 }
 
